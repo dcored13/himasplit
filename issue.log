@@ -1,0 +1,134 @@
+[Dan@DESKTOP-NQR243B qmk_firmware]$ qmk flash -kb himasplit -km default                                                                                                                                                                        
+ Ψ Compiling keymap with make -j 1 himasplit:default:flash 
+  
+  
+ QMK Firmware 0.13.22                                                                                                                                                                                                                           
+ Making himasplit with keymap default and target flash 
+  
+ avr-gcc.exe (GCC) 8.4.0                                                                                                                                                                                                                        
+ Copyright (C) 2018 Free Software Foundation, Inc.                                                                                                                                                                                              
+ This is free software; see the source for copying conditions.  There is NO                                                                                                                                                                     
+ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                                                                                                                                                                    
+  
+ Size before:                                                                                                                                                                                                                                   
+    text    data     bss     dec     hex filename                                                                                                                                                                                               
+       0   18440       0   18440    4808 .build/himasplit_default.hex                                                                                                                                                                           
+  
+ Compiling: quantum/command.c                                                                        [OK] 
+ Linking: .build/himasplit_default.elf                                                               [OK] 
+ Creating load file for flashing: .build/himasplit_default.hex                                       [OK] 
+ Copying himasplit_default.hex to qmk_firmware folder                                                [OK] 
+ Checking file size of himasplit_default.hex                                                         [OK] 
+  * The firmware size is fine - 18440/28672 (64%, 10232 bytes free)                                                                                                                                                                             
+ Waiting for USB serial port - reset your controller now (Ctrl+C to cancel)...........                                                                                                                                                          
+ Device /dev/ttyS3 has appeared; assuming it is the controller.                                                                                                                                                                                 
+ Remapped USB port to COM4                                                                                                                                                                                                                      
+  
+ Connecting to programmer: .                                                                                                                                                                                                                    
+ Found programmer: Id = "CATERIN"; type = S                                                                                                                                                                                                     
+     Software Version = 1.0; No Hardware Version given.                                                                                                                                                                                         
+ Programmer supports auto addr increment.                                                                                                                                                                                                       
+ Programmer supports buffered memory access with buffersize=128 bytes.                                                                                                                                                                          
+  
+ Programmer supports the following devices:                                                                                                                                                                                                     
+     Device code: 0x44                                                                                                                                                                                                                          
+  
+ avrdude.exe: AVR device initialized and ready to accept instructions                                                                                                                                                                           
+  
+ Reading | ################################################## | 100% 0.01s                                                                                                                                                                      
+  
+ avrdude.exe: Device signature = 0x1e9587 (probably m32u4)                                                                                                                                                                                      
+ avrdude.exe: NOTE: "flash" memory has been specified, an erase cycle will be performed                                                                                                                                                         
+              To disable this feature, specify the -D option.                                                                                                                                                                                   
+ avrdude.exe: erasing chip                                                                                                                                                                                                                      
+ avrdude.exe: reading input file ".build/himasplit_default.hex"                                                                                                                                                                                 
+ avrdude.exe: input file .build/himasplit_default.hex auto detected as Intel Hex                                                                                                                                                                
+ avrdude.exe: writing flash (18440 bytes):                                                                                                                                                                                                      
+  
+ Writing | ################################################## | 100% 2.24s                                                                                                                                                                      
+  
+ avrdude.exe: 18440 bytes of flash written                                                                                                                                                                                                      
+ avrdude.exe: verifying flash memory against .build/himasplit_default.hex:                                                                                                                                                                      
+ avrdude.exe: load data flash data from input file .build/himasplit_default.hex:                                                                                                                                                                
+ avrdude.exe: input file .build/himasplit_default.hex auto detected as Intel Hex                                                                                                                                                                
+ avrdude.exe: input file .build/himasplit_default.hex contains 18440 bytes                                                                                                                                                                      
+ avrdude.exe: reading on-chip flash data:                                                                                                                                                                                                       
+  
+ Reading | ################################################## | 100% 0.97s                                                                                                                                                                      
+  
+ avrdude.exe: verifying ...                                                                                                                                                                                                                     
+ avrdude.exe: 18440 bytes of flash verified                                                                                                                                                                                                     
+  
+ avrdude.exe: safemode: Fuses OK (E:CB, H:D8, L:FF)                                                                                                                                                                                             
+  
+ avrdude.exe done.  Thank you.                                                                                                                                                                                                                  
+  
+ [Dan@DESKTOP-NQR243B qmk_firmware]$ ]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]6789
+ 0]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890]67890^C                                                                    
+ [Dan@DESKTOP-NQR243B qmk_firmware]$ qmk flash -kb himasplit -km default                                                                                                                                                                        
+ Ψ Compiling keymap with make -j 1 himasplit:default:flash 
+  
+  
+ QMK Firmware 0.13.22                                                                                                                                                                                                                           
+ Making himasplit with keymap default and target flash 
+  
+ avr-gcc.exe (GCC) 8.4.0                                                                                                                                                                                                                        
+ Copyright (C) 2018 Free Software Foundation, Inc.                                                                                                                                                                                              
+ This is free software; see the source for copying conditions.  There is NO                                                                                                                                                                     
+ warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.                                                                                                                                                                    
+  
+ Size before:                                                                                                                                                                                                                                   
+    text    data     bss     dec     hex filename                                                                                                                                                                                               
+       0   18440       0   18440    4808 .build/himasplit_default.hex                                                                                                                                                                           
+  
+ Compiling: quantum/command.c                                                                        [OK] 
+ Linking: .build/himasplit_default.elf                                                               [OK] 
+ Creating load file for flashing: .build/himasplit_default.hex                                       [OK] 
+ Copying himasplit_default.hex to qmk_firmware folder                                                [OK] 
+ Checking file size of himasplit_default.hex                                                         [OK] 
+  * The firmware size is fine - 18440/28672 (64%, 10232 bytes free)                                                                                                                                                                             
+ Waiting for USB serial port - reset your controller now (Ctrl+C to cancel).........                                                                                                                                                            
+ Device /dev/ttyS3 has appeared; assuming it is the controller.                                                                                                                                                                                 
+ Remapped USB port to COM4                                                                                                                                                                                                                      
+  
+ Connecting to programmer: .                                                                                                                                                                                                                    
+ Found programmer: Id = "CATERIN"; type = S                                                                                                                                                                                                     
+     Software Version = 1.0; No Hardware Version given.                                                                                                                                                                                         
+ Programmer supports auto addr increment.                                                                                                                                                                                                       
+ Programmer supports buffered memory access with buffersize=128 bytes.                                                                                                                                                                          
+  
+ Programmer supports the following devices:                                                                                                                                                                                                     
+     Device code: 0x44                                                                                                                                                                                                                          
+  
+ avrdude.exe: AVR device initialized and ready to accept instructions                                                                                                                                                                           
+  
+ Reading | ################################################## | 100% 0.01s                                                                                                                                                                      
+  
+ avrdude.exe: Device signature = 0x1e9587 (probably m32u4)                                                                                                                                                                                      
+ avrdude.exe: NOTE: "flash" memory has been specified, an erase cycle will be performed                                                                                                                                                         
+              To disable this feature, specify the -D option.                                                                                                                                                                                   
+ avrdude.exe: erasing chip                                                                                                                                                                                                                      
+ avrdude.exe: reading input file ".build/himasplit_default.hex"                                                                                                                                                                                 
+ avrdude.exe: input file .build/himasplit_default.hex auto detected as Intel Hex                                                                                                                                                                
+ avrdude.exe: writing flash (18440 bytes):                                                                                                                                                                                                      
+  
+ Writing | ################################################## | 100% 2.05s                                                                                                                                                                      
+  
+ avrdude.exe: 18440 bytes of flash written                                                                                                                                                                                                      
+ avrdude.exe: verifying flash memory against .build/himasplit_default.hex:                                                                                                                                                                      
+ avrdude.exe: load data flash data from input file .build/himasplit_default.hex:                                                                                                                                                                
+ avrdude.exe: input file .build/himasplit_default.hex auto detected as Intel Hex                                                                                                                                                                
+ avrdude.exe: input file .build/himasplit_default.hex contains 18440 bytes                                                                                                                                                                      
+ avrdude.exe: reading on-chip flash data:                                                                                                                                                                                                       
+  
+ Reading | ################################################## | 100% 0.79s                                                                                                                                                                      
+  
+ avrdude.exe: verifying ...                                                                                                                                                                                                                     
+ avrdude.exe: 18440 bytes of flash verified                                                                                                                                                                                                     
+  
+ avrdude.exe: safemode: Fuses OK (E:CB, H:D8, L:FF)                                                                                                                                                                                             
+  
+ avrdude.exe done.  Thank you.                                                                                                                                                                                                                  
+  
+ [Dan@DESKTOP-NQR243B qmk_firmware]$ ]67890                                                                                                                                                                                                   
+ [Dan@DESKTOP-NQR243B qmk_firmware]$ }^&*()                     
